@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact | CTF Challenge</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/admin">Admin</a>
+    </nav>
+
+    <header class="contact-header">
+        <h1>Contact Us</h1>
+        <p>Have any questions? Get in touch with us!</p>
+    </header>
+
+    <div class="contact-container">
+        <section class="contact-info">
+            <h2>Our Support Team</h2>
+            <p>If you need any assistance regarding the challenge, feel free to reach out to us.</p>
+            <ul>
+                <li><strong>Email:</strong> support@ctf.com</li>
+                <li><strong>Phone:</strong> +1 (555) 123-4567</li>
+                <li><strong>Address:</strong> 123 Cyber Security Lane, Hackerville, USA</li>
+            </ul>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="POST">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 CTF Challenge. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

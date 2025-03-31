@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | CTF Challenge</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/admin">Admin</a>
+    </nav>
+    
+    <header class="hero">
+        <div class="hero-text">
+            <h1>Welcome to the CTF Security Challenge</h1>
+            <p>Test your cybersecurity skills and learn about web security vulnerabilities.</p>
+            <a href="/about" class="btn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="features">
+        <h2>Why Participate?</h2>
+        <div class="feature-boxes">
+            <div class="feature">
+                <h3>Learn Security</h3>
+                <p>Understand real-world security vulnerabilities and their impact.</p>
+            </div>
+            <div class="feature">
+                <h3>Improve Skills</h3>
+                <p>Practice ethical hacking techniques in a safe environment.</p>
+            </div>
+            <div class="feature">
+                <h3>Compete & Win</h3>
+                <p>Test your skills, solve challenges, and climb the leaderboard.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonials">
+        <h2>What Participants Say</h2>
+        <div class="testimonial-box">
+            <p>"This platform helped me understand web vulnerabilities in a fun and engaging way!"</p>
+            <p>- CyberWarrior</p>
+        </div>
+        <div class="testimonial-box">
+            <p>"A must-try for anyone interested in ethical hacking and cybersecurity."</p>
+            <p>- SecurityNinja</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CTF Challenge | Designed for Ethical Hackers</p>
+    </footer>
+</body>
+</html>
